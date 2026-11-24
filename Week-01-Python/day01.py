@@ -15,6 +15,7 @@ print("product of the nmbers is :",a*b*c)
 print("Division of the numbers is:",a/b/c)
 
 #--------------------------------------------------------------------------------------------------
+
 length = int(input("enter the length of the rectangle: "))
 width = float(input("enter the width of the rectangle:"))
 area= length*width
@@ -23,4 +24,12 @@ print("Area of the rectangle is:",area)
 print("Perimeter of the rectangle is:",perimeter)
 
 
-#--------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
+
+temperature = 32
+if temperature < 0:
+    print("It's cold")
+elif temperature >35:
+    print("it's Hot")
+else:
+    print("it's moderate")

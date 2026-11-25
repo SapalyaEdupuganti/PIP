@@ -33,7 +33,7 @@ print("The square is:", answer)'''
 
 #---------------------------------------------------------------------------
 #list
-fruits = ["apple", "banana", "cherry", "dates"]
+'''fruits = ["apple", "banana", "cherry", "dates"]
 print("List of fruits:", fruits)
 
 #indexing
@@ -57,4 +57,15 @@ fruits.remove("kiwi")
 fruits.pop(2)  # Removes the item at index 2
 fruits.sort()  # Sorts the list in ascending order
 fruits.reverse()  # Reverses the list
-print("Final list of fruits:", fruits)
+print("Final list of fruits:", fruits)'''
+
+#-------------------------------------------------------------------------------------------
+#tuple
+Months = ("may ", "june", "july", "august")
+print(Months)
+print(Months[0])  # Output: may(indexing)
+#-------------------------------------------------------------------------------------------
+#sets
+numbers={1,1,2,2,3,4,5,6,7,8,9}
+print(numbers)  # Output: {1, 2, 3, 4, 5, 6, 7, 8, 9} (duplicates removed)
+

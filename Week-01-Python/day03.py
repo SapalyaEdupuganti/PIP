@@ -58,16 +58,16 @@ else:
 
 
 try:
+    # Ask for marks and convert the input to a number
     marks = float(input("Enter marks from 0 to 100: "))
 
+    # Check that marks are within the valid range
     if 0 <= marks <= 100:
         print("Marks accepted:", marks)
     else:
         print("Marks must be between 0 and 100.")
 
 except ValueError:
+    # This runs if the input is not a valid number
     print("Please enter a number.")
-else:
-    print("Marks accepted:", marks)
-
     

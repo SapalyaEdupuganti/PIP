@@ -36,8 +36,38 @@ print(message.replace("World", "Python"))  # Output: Hello Python!
 print(multiline.split(" "))  # Output: ['Nice', 'to', 'meet', 'you,']'''
 
 #repeating  and concatenating strings
-a = "Hello"
+'''a = "Hello"
 b = "World"
 print(a + " " + b)  # Output: Hello World(concatenation)
-print(a * 3)  # Output: HelloHelloHello(repetition)
+print(a * 3)  # Output: HelloHelloHello(repetition)'''
 #-------------------------------------------------------------------------------------------
+#error handling
+'''try:
+    numerator = float(input("Enter the first number: "))
+    denominator = float(input("Enter the second number: "))
+    result = numerator / denominator
+
+except ValueError:
+    print("Please enter numbers only.")
+
+except ZeroDivisionError:
+    print("You cannot divide by zero.")
+
+else:
+    print("Result:", result)'''
+
+
+try:
+    marks = float(input("Enter marks from 0 to 100: "))
+
+    if 0 <= marks <= 100:
+        print("Marks accepted:", marks)
+    else:
+        print("Marks must be between 0 and 100.")
+
+except ValueError:
+    print("Please enter a number.")
+else:
+    print("Marks accepted:", marks)
+
+    
